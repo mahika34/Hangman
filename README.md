@@ -1,12 +1,22 @@
-Topic: Hangman
+# Hangman Game
 
-Description: This is a fun game in which the computer chooses a random word from the provided text file and the user has to guess the word either letter-by-letter or the entire word in 7 tries
+## Description
+Hangman is a fun word-guessing game where the computer randomly selects a word from a provided text file. The player has to guess the word either letter by letter or by guessing the entire word. The player gets 7 attempts to guess correctly before losing the game.
 
-Steps to follow:
+## Steps to Follow
 
-1. Use the command git clone https://github.com/mahika34/Hangman-project--3rd-sem.git
-2. cd Hangman-project--3rd-sem
-3. Run the c++ file 
-4. Continue playing and have fun!
-   
-Feel free to post any issue/suggestion whenever you like!
+1. Clone the repository using the command:
+   ```sh
+   git clone https://github.com/mahika34/Hangman-project--3rd-sem.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd Hangman-project--3rd-sem
+   ```
+3. Compile and run the C++ file.
+   ```sh
+   g++ proj.cpp
+   ./a.exe (according to system configuration)
+   ```
+5. Start playing and have fun!
+
